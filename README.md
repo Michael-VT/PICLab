@@ -3,6 +3,7 @@
 Программа PICLab прилагается с исходными файлами на Delphi 6.0.
 Программа выполняет код из HEX файла.
 Внешний вид https://github.com/Michael-VT/PICLab/blob/master/PIC_Lab.png
+<img src="PIC_Lab.png" width="300" style="float:right"/>
 ---
 
 ## Краткое описание работы программы.
