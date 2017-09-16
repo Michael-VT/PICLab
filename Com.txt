@@ -1,0 +1,32 @@
+Скорость
+CBBaund
+1200
+2400
+4800
+9600 (*)
+14400
+19200
+38400
+56000
+115200
+128000
+256000
+
+Порт
+CBPort
+COM1
+COM2 (*)
+COM3
+COM4
+COM5
+COM6
+COM7
+COM8
+
+Поток
+CBFlow
+None (*)
+XOn-XOff
+RTS-CTS
+DSR-DTR
+
