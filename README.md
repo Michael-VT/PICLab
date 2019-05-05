@@ -1,14 +1,20 @@
 # PICLab debuger for PIC16F876 (Microchip)
 PIC simulation debugger
 
+<br />
+
 The PICLab program wrote on Delphi 6.0, the compiled program and the sources included.
 > Программа PICLab написана на Delphi 6.0, скомпилированная программа и исходники прилагаются.
+
+<br />
 
 The program runs code from HEX file
 >Программа выполняет код из HEX файла.
 
 Screen:
 <img src="PIC_Lab.png" width="300" style="float:right"/>
+
+<br />
 
 ### Bried descriptions / Краткое описание
 The program, during the start, searches the serial port for a stitched debugging assistant, and if it does not find it, it switches to the full simulation mode by issuing a warning. This project was launched as an attempt to debug the main peripheral modules, since the Microchip debugger was slow and buggy. Unfortunately, further
@@ -20,25 +26,21 @@ The folder contains examples of laed.HEX led.HEX SAFIRMX.HEX ss1.HEX code and PI
 Исходники будут полезны для ознакомления с принципами написания отладчиков. В своё время очень выручила при освоении микроконтроллера.
 В папке присутствуют примеры кода laed.HEX led.HEX SAFIRMX.HEX ss1.HEX и код PICLAB.HEX зашиваемый в микроконтроллер PIC16F876 а связь с микроконтроллером через последовательный порт микроконтроллера.
 
+<br />
+
 ### Usage / Использование
 
 * **File** - меню работы с файлами.
-* ***Open HEX Ctrl-O*** - Открыть HEX файл и загрузит в память симулятора
-* ***Save HEX Ctrl-S*** - заглушка(не работает)
-* ***Save Listing Ctrl-L*** - заглушка(не работает)
-* ***Exit Ctrl-X*** - Выход из программы
+  * ***Open HEX Ctrl-O*** - Открыть HEX файл и загрузит в память симулятора
+  * ***Save HEX Ctrl-S*** - заглушка(не работает)
+  * ***Save Listing Ctrl-L*** - заглушка(не работает)
+  * ***Exit Ctrl-X*** - Выход из программы
+
 * **Debug** -  Функции отладки/трассировки программы
-* ***Step F7*** - Выполнить команду с заходом в подпрограммы
-* ***Step Over F8*** - Выполнить программы проходя через подпрограммы в фоне
-* ***Reset F2*** - Сбросить симулятор в начальное состояние
-* ***Go to F5*** - заглушка(не работает)
-* ***Run F9*** - запуск выполнения программы до первой ошибки
-* ***Set BP*** - Установить точку останова
-* ***Del BP*** - Снять точку останова
-* **Edit** - заглушка(не работает)
-* ***Cut*** - заглушка(не работает)
-* ***Copy*** - заглушка(не работает)
-* ***Past*** - заглушка(не работает)
-* **Help** - заглушка(не работает)
-* ***Help PICLab*** - заглушка(не работает)
-* ***About*** - заглушка(не работает)
+  * ***Step F7*** - Выполнить команду с заходом в подпрограммы
+  * ***Step Over F8*** - Выполнить программы проходя через подпрограммы в фоне
+  * ***Reset F2*** - Сбросить симулятор в начальное состояние
+  * ***Go to F5*** - заглушка(не работает)
+  * ***Run F9*** - запуск выполнения программы до первой ошибки
+  * ***Set BP*** - Установить точку останова
+  * ***Del BP*** - Снять точку останова
