@@ -12,6 +12,7 @@ The program runs code from HEX file
 >Программа выполняет код из HEX файла.
 
 Screen:
+
 <img src="PIC_Lab.png" width="300" style="float:right"/>
 
 <br />
